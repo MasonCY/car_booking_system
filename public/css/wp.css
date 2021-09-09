@@ -1,0 +1,108 @@
+body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: normal;
+    font-style: normal;
+    background-color: white;
+    color: black
+}
+.alt{
+    background-color: #009933;
+}
+
+h1 { font-weight: bold; color: #003399; }
+h2 { font-weight: bold; color: #006666; }
+h3 { font-weight: bold; color: #009933; }
+h4 { font-weight: bold; font-style: italic; color: #669900;  margin-left: 64px;}
+h6 { color: #003399;}
+.home_h4{
+   
+    display: inline;
+}
+.button_add_car{
+
+    display: inline;
+}
+.button_add_book{
+    width: 100%;
+}
+p { margin-left: 0em; }
+
+table { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    border: 1px solid black; 
+    margin-left: 64px;
+    width: 89.9%;
+}
+caption { font-weight: bold; }
+th { font-weight: bold; background-color: blue; color: white; padding: 2px; border: 1px solid black; }
+td { padding: 2px; border: 1px solid;}
+/* tr { background-color: white; } */
+
+table.bordered    { border: solid; border-width: thin; }
+table.bordered td { border: solid; border-width: thin; }
+table.bordered th { border: solid; border-width: thin; border-color: black; }
+
+address { margin-left: 0in; font-style: italic; }       
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.alert { font-weight: bold; font-style: italic; color: red; }
+
+.eg { 
+    font-family: Monaco, Courier, "Courier New", monospace;
+    background-color: #FFFFE0;
+    border-style: groove; 
+    border: thin;
+    padding: 5px;
+}
+
+.antispam { display:none;}
+
+#navbar{
+    background-color:#669900;
+    border-color:#009933;
+    border-style: solid;
+    padding: 20px
+    
+}
+.home{
+    color:red;
+}
+.client{
+    color: red;
+}
+.book{
+    color:red;
+}
+.navLink{
+    color:black
+}
+.error{
+    color:aqua;
+}
+#content{
+    padding: 1px
+    
+}
+#messageBox{
+    border-style: dotted;
+    height: 100px;
+    width: 102px;
+    padding:10px;
+    /* background-color: blanchedalmond; */
+}
+#inputBox{
+    width:102px;
+}
+#imageArea{
+    height: 105px;
+    width: 500px;
+}
+#carList{
+   text-align: center;
+    background-color: #009933;
+}
+
